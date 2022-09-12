@@ -12,5 +12,5 @@ export interface PlaceOrderOutputDto {
     total: number;
     products: {
         productId: string;
-    }
+    }[]
 }
